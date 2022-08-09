@@ -34,7 +34,7 @@ def generate_attractor(inics, filename="", crop_to_sq = False, show = True,
     else:
         plt.style.use('default')
     
-    plt.figure(figsize=(76.80, 43.20))
+    plt.figure(figsize=(38.40, 21.60))
 
     plt.xlim(-scale, scale)
     plt.ylim(0, 50)
@@ -174,7 +174,7 @@ def generate_logos_without_text():
 
     import os
     
-    logo_path = "logo_images_without_text"
+    logo_path = "logo_images_without_text_4k"
     if not os.path.exists(logo_path):
         os.mkdir(logo_path)
 
